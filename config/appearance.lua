@@ -70,7 +70,8 @@ local config = {
 
 	-- 窗口
 	adjust_window_size_when_changing_font_size = false,
-	window_decorations = "INTEGRATED_BUTTONS|RESIZE",
+	-- window_decorations = "INTEGRATED_BUTTONS|RESIZE", -- 默认配置，显示所有窗口按钮
+	window_decorations = "RESIZE", -- 隐藏窗口按钮，仅保留调整大小功能
 	integrated_title_button_style = get_integrated_title_button_style(),
 	integrated_title_button_color = "auto",
 	integrated_title_button_alignment = "Right",
