@@ -124,7 +124,7 @@ F11             --全屏
 F12             --显示调试覆盖层
 Ctrl+shift+c    --复制
 Ctrl+shift+v    --粘贴
-Ctrl+t          --新建标签页
+Ctrl+shift+t    --新建标签页
 Ctrl+w          --关闭当前标签页
 Alt+h           --激活左侧标签页
 Alt+l           --激活右侧标签页
