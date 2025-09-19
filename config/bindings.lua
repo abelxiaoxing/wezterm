@@ -25,7 +25,7 @@ local keys = {
 
 	-- tabs --
 	-- tabs: spawn+close
-	{ key = "t", mods = mod.SUPER, action = act.SpawnTab("DefaultDomain") },
+	{ key = "t", mods = "CTRL|SHIFT", action = act.SpawnTab("DefaultDomain") },
 	{ key = "w", mods = mod.SUPER, action = act.CloseCurrentTab({ confirm = false }) },
 
 	-- tabs: navigation
